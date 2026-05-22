@@ -27,14 +27,14 @@
 </p>
 
 <p align="center">
-  <img src="./assets/mission-control.svg" alt="Awab mission control dashboard" width="100%" />
+  <img src="./assets/mission-control.svg" alt="Awab AI student build log dashboard" width="100%" />
 </p>
 
-## Operator Brief
+## AI Student Brief
 
-I build across the full path of an AI project: idea, model behavior, backend logic, data handling, interface design, documentation, and the GitHub polish that makes someone want to click around.
+I am an Artificial Intelligence student learning by building. My focus is turning what I study into real projects: computer vision experiments, ML workflows, generative AI ideas, and interactive web interfaces that show the work clearly.
 
-I am not trying to make projects that only look good in a screenshot. I want them to run locally, explain themselves clearly, and feel like something a real person could use, test, or expand.
+I am still growing, but I care about making each project more complete than the last: cleaner code, better setup, stronger README, more honest limitations, and a presentation that makes people want to explore it.
 
 <p align="center">
   <img src="./assets/project-showcase.svg" alt="Featured project showcase" width="100%" />
@@ -67,13 +67,13 @@ I am not trying to make projects that only look good in a screenshot. I want the
 
 ## Build Matrix
 
-| Layer | Tools | What I use it for |
+| Learning Area | Tools | What I am practicing |
 | --- | --- | --- |
-| Vision | OpenCV, DeepFace, NumPy | webcam analysis, face detection, embeddings, model behavior checks |
-| AI / ML | Python, Pandas, scikit-learn | preprocessing, evaluation, notebooks, feedback loops |
-| Web | React, Vite, Three.js, GSAP | interactive portfolios, dashboards, animated project interfaces |
-| Backend | Flask, SQLite, local scripts | APIs, local storage, setup checks, reproducible runs |
-| Publishing | Git, GitHub, Markdown, Vercel | clean repos, project READMEs, deployment, profile presentation |
+| AI Foundations | Python, NumPy, Pandas, scikit-learn | preprocessing, notebooks, model evaluation, experiment structure |
+| Computer Vision | OpenCV, DeepFace | face detection, webcam analysis, embeddings, model behavior checks |
+| Web Interfaces | React, Vite, Three.js, GSAP | interactive portfolios, dashboards, animated project presentation |
+| Backend Basics | Flask, SQLite, local scripts | APIs, local storage, setup checks, reproducible runs |
+| Portfolio Growth | Git, GitHub, Markdown, Vercel | clean repos, project READMEs, deployment, profile presentation |
 
 ## Stack Arsenal
 
@@ -130,5 +130,5 @@ I am not trying to make projects that only look good in a screenshot. I want the
 </p>
 
 <p align="center">
-  <strong>Building AI projects that look sharp, run locally, explain themselves, and are worth opening twice.</strong>
+  <strong>AI student building real projects, learning in public, and making every repo better than the last.</strong>
 </p>
