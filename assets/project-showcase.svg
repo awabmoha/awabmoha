@@ -1,0 +1,57 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420">
+      <stop stop-color="#020617"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="greenBlue" x1="80" y1="80" x2="1120" y2="340">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feBlend in="SourceGraphic" in2="b"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="420" rx="30" fill="url(#bg)"/>
+  <text x="70" y="70" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="32" font-weight="850">Featured Build Deck</text>
+  <text x="70" y="102" fill="#94a3b8" font-family="Consolas, monospace" font-size="16">selected projects with a real pipeline behind them</text>
+
+  <g transform="translate(70 132)">
+    <rect width="500" height="220" rx="24" fill="#07111f" stroke="#334155"/>
+    <rect x="24" y="24" width="188" height="134" rx="16" fill="#020617" stroke="#38bdf8"/>
+    <rect x="54" y="54" width="96" height="72" rx="10" stroke="#22c55e" stroke-width="3"/>
+    <rect x="54" y="38" width="126" height="22" rx="5" fill="#020617"/>
+    <text x="66" y="54" fill="#e5e7eb" font-family="Consolas, monospace" font-size="12">face.match</text>
+    <circle cx="102" cy="88" r="20" fill="#111827" stroke="#38bdf8"/>
+    <text x="240" y="48" fill="#38bdf8" font-family="Consolas, monospace" font-size="15">01 / COMPUTER VISION</text>
+    <text x="240" y="86" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">Real-Time Face Analytics</text>
+    <text x="240" y="120" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">OpenCV webcam app with age/gender</text>
+    <text x="240" y="143" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">estimation, optional DeepFace analysis,</text>
+    <text x="240" y="166" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">SQLite embeddings, and safer local data.</text>
+    <rect x="240" y="184" width="82" height="24" rx="12" fill="#0f172a" stroke="#38bdf8"/>
+    <text x="260" y="201" fill="#e0f2fe" font-family="Consolas, monospace" font-size="12">Python</text>
+    <rect x="332" y="184" width="84" height="24" rx="12" fill="#0f172a" stroke="#22c55e"/>
+    <text x="350" y="201" fill="#dcfce7" font-family="Consolas, monospace" font-size="12">OpenCV</text>
+  </g>
+
+  <g transform="translate(630 132)">
+    <rect width="500" height="220" rx="24" fill="#07111f" stroke="#334155"/>
+    <rect x="24" y="24" width="188" height="134" rx="16" fill="#020617" stroke="#22c55e"/>
+    <path d="M60 124L116 50L170 124H60Z" fill="#0f172a" stroke="#38bdf8" stroke-width="3"/>
+    <circle cx="116" cy="88" r="24" fill="#22c55e" opacity="0.28"/>
+    <path d="M70 132H178" stroke="#a78bfa" stroke-width="3" filter="url(#glow)"/>
+    <text x="240" y="48" fill="#22c55e" font-family="Consolas, monospace" font-size="15">02 / INTERACTIVE WEB</text>
+    <text x="240" y="86" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">3D AI Portfolio</text>
+    <text x="240" y="120" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">React and Three.js portfolio that turns</text>
+    <text x="240" y="143" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">a CV into an animated experience with</text>
+    <text x="240" y="166" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">project storytelling and visual identity.</text>
+    <rect x="240" y="184" width="76" height="24" rx="12" fill="#0f172a" stroke="#38bdf8"/>
+    <text x="258" y="201" fill="#e0f2fe" font-family="Consolas, monospace" font-size="12">React</text>
+    <rect x="326" y="184" width="90" height="24" rx="12" fill="#0f172a" stroke="#22c55e"/>
+    <text x="342" y="201" fill="#dcfce7" font-family="Consolas, monospace" font-size="12">Three.js</text>
+  </g>
+
+  <path d="M70 382H1130" stroke="url(#greenBlue)" stroke-width="2" opacity="0.75"/>
+</svg>

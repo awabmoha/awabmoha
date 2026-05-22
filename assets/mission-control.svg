@@ -1,0 +1,73 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1200" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.5" stop-color="#0b1222"/>
+      <stop offset="1" stop-color="#071b18"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="76" y1="70" x2="1130" y2="452" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur"/>
+    </filter>
+    <pattern id="miniGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#1e293b" stroke-width="1" opacity="0.55"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="520" rx="32" fill="url(#panel)"/>
+  <rect width="1200" height="520" rx="32" fill="url(#miniGrid)" opacity="0.38"/>
+  <rect x="36" y="36" width="1128" height="448" rx="26" stroke="#1e293b" stroke-width="2"/>
+  <path d="M70 102H1130" stroke="url(#accent)" stroke-width="2" opacity="0.72"/>
+  <text x="70" y="78" fill="#e5e7eb" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">AWAB.OS / MISSION CONTROL</text>
+  <text x="912" y="78" fill="#22c55e" font-family="Consolas, monospace" font-size="16">STATUS: BUILDING</text>
+
+  <g transform="translate(70 130)">
+    <rect width="330" height="292" rx="22" fill="#020617" stroke="#334155"/>
+    <text x="26" y="42" fill="#38bdf8" font-family="Consolas, monospace" font-size="17">identity.profile</text>
+    <text x="26" y="84" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">AI Student</text>
+    <text x="26" y="122" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Doha, Qatar</text>
+    <text x="26" y="164" fill="#94a3b8" font-family="Consolas, monospace" font-size="15">focus[0] = computer vision</text>
+    <text x="26" y="194" fill="#94a3b8" font-family="Consolas, monospace" font-size="15">focus[1] = ML workflows</text>
+    <text x="26" y="224" fill="#94a3b8" font-family="Consolas, monospace" font-size="15">focus[2] = interactive web</text>
+    <rect x="26" y="250" width="240" height="16" rx="8" fill="#0f172a"/>
+    <rect x="26" y="250" width="190" height="16" rx="8" fill="#22c55e"/>
+    <text x="276" y="264" fill="#22c55e" font-family="Consolas, monospace" font-size="13">79%</text>
+  </g>
+
+  <g transform="translate(436 130)">
+    <rect width="332" height="292" rx="22" fill="#020617" stroke="#334155"/>
+    <text x="26" y="42" fill="#22c55e" font-family="Consolas, monospace" font-size="17">pipeline.active</text>
+    <g transform="translate(44 70)">
+      <circle cx="90" cy="90" r="84" stroke="#1e293b" stroke-width="18"/>
+      <path d="M90 6A84 84 0 1 1 22 139" stroke="#38bdf8" stroke-width="18" stroke-linecap="round" filter="url(#soft)"/>
+      <path d="M90 6A84 84 0 0 1 172 108" stroke="#22c55e" stroke-width="18" stroke-linecap="round"/>
+      <text x="42" y="84" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">idea</text>
+      <text x="38" y="114" fill="#94a3b8" font-family="Consolas, monospace" font-size="14">to deploy</text>
+    </g>
+    <text x="214" y="102" fill="#cbd5e1" font-family="Consolas, monospace" font-size="14">01 model</text>
+    <text x="214" y="136" fill="#cbd5e1" font-family="Consolas, monospace" font-size="14">02 backend</text>
+    <text x="214" y="170" fill="#cbd5e1" font-family="Consolas, monospace" font-size="14">03 interface</text>
+    <text x="214" y="204" fill="#cbd5e1" font-family="Consolas, monospace" font-size="14">04 docs</text>
+    <text x="214" y="238" fill="#cbd5e1" font-family="Consolas, monospace" font-size="14">05 publish</text>
+  </g>
+
+  <g transform="translate(804 130)">
+    <rect width="326" height="292" rx="22" fill="#020617" stroke="#334155"/>
+    <text x="26" y="42" fill="#a78bfa" font-family="Consolas, monospace" font-size="17">signal.map</text>
+    <path d="M64 208C96 118 166 94 254 76" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" filter="url(#soft)"/>
+    <circle cx="64" cy="208" r="11" fill="#38bdf8"/>
+    <circle cx="132" cy="142" r="11" fill="#22c55e"/>
+    <circle cx="204" cy="100" r="11" fill="#a78bfa"/>
+    <circle cx="254" cy="76" r="11" fill="#f59e0b"/>
+    <text x="42" y="244" fill="#cbd5e1" font-family="Consolas, monospace" font-size="14">prototype</text>
+    <text x="112" y="178" fill="#cbd5e1" font-family="Consolas, monospace" font-size="14">test</text>
+    <text x="184" y="136" fill="#cbd5e1" font-family="Consolas, monospace" font-size="14">polish</text>
+    <text x="226" y="52" fill="#cbd5e1" font-family="Consolas, monospace" font-size="14">ship</text>
+  </g>
+
+  <text x="70" y="462" fill="#94a3b8" font-family="Consolas, monospace" font-size="15">mission: build AI projects that look sharp, run locally, explain themselves, and feel worth exploring.</text>
+</svg>
