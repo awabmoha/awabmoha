@@ -27,14 +27,14 @@
 </p>
 
 <p align="center">
-  <img src="./assets/mission-control.svg" alt="Awab AI student build log dashboard" width="100%" />
+  <img src="./assets/mission-control.svg" alt="Awab AI engineering roadmap with upcoming missions and goals" width="100%" />
 </p>
 
 ## AI Student Brief
 
-I am an Artificial Intelligence student learning by building. My focus is turning what I study into real projects: computer vision experiments, ML workflows, generative AI ideas, and interactive web interfaces that show the work clearly.
+I am an Artificial Intelligence student learning by building toward AI engineering. My focus is turning what I study into real projects: computer vision experiments, ML workflows, generative AI tools, RAG ideas, and interactive web interfaces that show the work clearly.
 
-I am still growing, but I care about making each project more complete than the last: cleaner code, better setup, stronger README, more honest limitations, and a presentation that makes people want to explore it.
+My upcoming goals are to build more engineer-style AI projects: a useful RAG app, stronger computer vision demos, model evaluation workflows, and polished dashboards that make the AI behavior easy to understand.
 
 <p align="center">
   <img src="./assets/project-showcase.svg" alt="Featured project showcase" width="100%" />
