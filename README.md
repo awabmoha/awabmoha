@@ -1,133 +1,121 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:0f172a,45:2563eb,100:22c55e&text=Awab%20Mohamed%20Osman&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=AI%20Student%20%7C%20Computer%20Vision%20%7C%20Interactive%20Web%20Systems&descAlignY=60&descSize=15" alt="Awab Mohamed Osman banner" />
+  <img src="./assets/hero.svg" alt="Awab Mohamed Osman - AI Developer" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://github.com/awabmoha">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=700&color=38BDF8&center=true&vCenter=true&width=760&lines=Building+practical+AI+systems;Computer+vision+%2B+machine+learning+projects;3D+web+experiences+with+React+and+Three.js;Turning+old+prototypes+into+clean+GitHub-ready+work" alt="Typing animation" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2400&pause=650&color=38BDF8&center=true&vCenter=true&width=860&lines=I+build+AI+systems+that+people+can+actually+try;Computer+vision+%2B+ML+pipelines+%2B+interactive+web;Cleaning+old+prototypes+into+GitHub-ready+projects;Learning+fast%2C+shipping+faster%2C+documenting+honestly" alt="Typing animation" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://awab-ai.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-3D%20Experience-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-awab--ai.vercel.app-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
   <a href="mailto:oawab06@gmail.com">
-    <img src="https://img.shields.io/badge/Email-oawab06%40gmail.com-ef4444?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Contact-oawab06%40gmail.com-ef4444?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/awabmoha">
     <img src="https://img.shields.io/badge/GitHub-awabmoha-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
 
----
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=awabmoha&style=for-the-badge&color=38bdf8&label=PROFILE+VIEWS" alt="Profile views" />
+  <img src="https://img.shields.io/badge/Doha-Qatar-0f172a?style=for-the-badge" alt="Doha Qatar" />
+  <img src="https://img.shields.io/badge/AI%20Student-Lusail%20University-0f172a?style=for-the-badge" alt="AI student" />
+</p>
 
-## About Me
+<p align="center">
+  <img src="./assets/divider.svg" alt="" width="100%" />
+</p>
+
+## System Identity
 
 ```txt
-name        Awab Mohamed Osman
-location    Doha, Qatar
-role        Artificial Intelligence student and AI developer
-focus       Computer vision, ML workflows, generative AI, interactive web apps
-mindset     Build it, test it, clean it, document it, then make it useful
+operator      Awab Mohamed Osman
+base          Doha, Qatar
+track         Artificial Intelligence student
+specialty     computer vision, applied ML, generative AI, interactive web systems
+current goal  make every project feel real, useful, and clean enough to publish
 ```
 
-I like building projects that connect the whole path: model logic, data, backend behavior, user interface, and the small details that make a project feel real instead of like a half-finished demo.
-
-Right now I am improving my portfolio around applied AI, computer vision, and full-stack project presentation.
-
-## Current Build Mode
+I build across the whole stack of an AI project: messy idea, model behavior, backend logic, data handling, interface design, documentation, and the final GitHub polish that makes someone want to click around.
 
 <table>
   <tr>
-    <td width="50%">
-      <h3>AI + Vision</h3>
-      <p>Face analytics, OpenCV pipelines, DeepFace experiments, model behavior testing, and safer local data handling.</p>
+    <td width="33%">
+      <h3 align="center">Vision Lab</h3>
+      <p align="center">OpenCV pipelines, face analytics, camera workflows, model behavior testing, and safer local data storage.</p>
     </td>
-    <td width="50%">
-      <h3>Interactive Web</h3>
-      <p>React, Vite, Three.js, animated portfolio experiences, and interfaces that make technical projects easier to explore.</p>
+    <td width="33%">
+      <h3 align="center">AI Systems</h3>
+      <p align="center">ML workflows, notebooks, response evaluation, feedback loops, and practical model experiments.</p>
     </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>ML Foundations</h3>
-      <p>Reusable training workflows, preprocessing, evaluation, notebooks, and structured experiments.</p>
-    </td>
-    <td width="50%">
-      <h3>GitHub Polish</h3>
-      <p>Turning old projects into clean repositories with honest READMEs, setup scripts, privacy notes, and useful docs.</p>
+    <td width="33%">
+      <h3 align="center">Web Experience</h3>
+      <p align="center">React, Vite, Three.js, animated interfaces, portfolio systems, and product-style UI presentation.</p>
     </td>
   </tr>
 </table>
 
-## Featured Projects
+## Featured Work
 
 <table>
   <tr>
     <td width="50%">
+      <a href="https://github.com/awabmoha/mlAgeGenderemotions">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=awabmoha&repo=mlAgeGenderemotions&theme=react&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=E5E7EB&icon_color=22C55E" alt="Real-Time Face Analytics repo card" />
+      </a>
       <h3>Real-Time Face Analytics</h3>
-      <p>Local webcam face analytics using Python, OpenCV, DeepFace, and SQLite. Includes age/gender estimation, optional emotion/identity analysis, safer opt-in face registration, setup checks, and GitHub-ready documentation.</p>
+      <p>Local webcam analytics with OpenCV, optional DeepFace emotion/identity analysis, SQLite embeddings, safer opt-in face registration, setup checks, and clean GitHub documentation.</p>
       <p>
-        <a href="https://github.com/awabmoha/mlAgeGenderemotions"><strong>Repository</strong></a>
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python" />
-        <img src="https://img.shields.io/badge/OpenCV-111827?style=flat-square&logo=opencv" />
-        <img src="https://img.shields.io/badge/DeepFace-111827?style=flat-square" />
-        <img src="https://img.shields.io/badge/SQLite-111827?style=flat-square&logo=sqlite" />
+        <img src="https://img.shields.io/badge/Python-020617?style=flat-square&logo=python" />
+        <img src="https://img.shields.io/badge/OpenCV-020617?style=flat-square&logo=opencv" />
+        <img src="https://img.shields.io/badge/DeepFace-020617?style=flat-square" />
+        <img src="https://img.shields.io/badge/SQLite-020617?style=flat-square&logo=sqlite" />
       </p>
     </td>
     <td width="50%">
+      <a href="https://awab-ai.vercel.app">
+        <img src="https://capsule-render.vercel.app/api?type=rect&height=130&color=0:020617,45:2563eb,100:22c55e&text=3D%20AI%20Portfolio&fontColor=ffffff&fontSize=30&desc=React%20%2B%20Three.js%20%2B%20animated%20CV%20experience&descSize=14&descAlignY=72" alt="3D AI Portfolio card" />
+      </a>
       <h3>3D AI Portfolio</h3>
-      <p>Interactive portfolio built with React, Vite, Three.js, React Three Fiber, Drei, and GSAP. Presents CV-style information through a more memorable animated 3D experience.</p>
+      <p>An interactive portfolio experience built with React, Vite, Three.js, React Three Fiber, Drei, and GSAP. It turns a CV into something people can explore instead of just read.</p>
       <p>
-        <a href="https://awab-ai.vercel.app"><strong>Live Site</strong></a>
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/React-111827?style=flat-square&logo=react" />
-        <img src="https://img.shields.io/badge/Vite-111827?style=flat-square&logo=vite" />
-        <img src="https://img.shields.io/badge/Three.js-111827?style=flat-square&logo=threedotjs" />
-        <img src="https://img.shields.io/badge/GSAP-111827?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>Smart AI Assistant With Feedback</h3>
-      <p>Notebook-based AI assistant concept that generates candidate answers, collects ratings, ranks outputs with Pandas, and explores feedback-driven response quality.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python" />
-        <img src="https://img.shields.io/badge/Pandas-111827?style=flat-square&logo=pandas" />
-        <img src="https://img.shields.io/badge/AI%20Evaluation-111827?style=flat-square" />
-      </p>
-    </td>
-    <td width="50%">
-      <h3>ML Prediction Pipeline</h3>
-      <p>Reusable supervised learning workflow for preprocessing, feature engineering, model training, evaluation, and project integration.</p>
-      <p>
-        <img src="https://img.shields.io/badge/scikit--learn-111827?style=flat-square&logo=scikitlearn" />
-        <img src="https://img.shields.io/badge/NumPy-111827?style=flat-square&logo=numpy" />
-        <img src="https://img.shields.io/badge/Modeling-111827?style=flat-square" />
+        <img src="https://img.shields.io/badge/React-020617?style=flat-square&logo=react" />
+        <img src="https://img.shields.io/badge/Vite-020617?style=flat-square&logo=vite" />
+        <img src="https://img.shields.io/badge/Three.js-020617?style=flat-square&logo=threedotjs" />
+        <img src="https://img.shields.io/badge/GSAP-020617?style=flat-square" />
       </p>
     </td>
   </tr>
 </table>
 
-## Tech Stack
+## Project Console
+
+| Area | What I am building toward |
+| --- | --- |
+| Computer Vision | Face analytics, webcam apps, OpenCV model pipelines, privacy-aware local recognition |
+| Machine Learning | Reusable training/evaluation workflows, notebooks, preprocessing, model comparison |
+| Generative AI | Prompt workflows, response ranking, human feedback loops, multimodal experiments |
+| Frontend | Portfolio experiences, dashboards, 3D UI, polished project presentation |
+| Backend | Python services, local data storage, setup scripts, clear developer documentation |
+
+## Stack Arsenal
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,js,ts,react,vite,threejs,html,css,flask,opencv,git,github,vscode" alt="Tech stack icons" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Machine%20Learning-0f172a?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Computer%20Vision-0f172a?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Generative%20AI-0f172a?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Full%20Stack%20Prototyping-0f172a?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-020617?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Computer%20Vision-020617?style=for-the-badge&logo=opencv" />
+  <img src="https://img.shields.io/badge/Generative%20AI-020617?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Interactive%20Web-020617?style=for-the-badge&logo=react" />
 </p>
 
-## Learning Path
+## Learning Signal
 
 <table>
   <tr>
@@ -140,23 +128,29 @@ Right now I am improving my portfolio around applied AI, computer vision, and fu
   </tr>
   <tr>
     <td><strong>Systems</strong></td>
-    <td>Cisco networking foundations, local development, GitHub project publishing</td>
+    <td>Cisco networking foundations, local development, GitHub publishing, project documentation</td>
   </tr>
 </table>
 
-## GitHub Activity
+## GitHub Telemetry
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=awabmoha&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=22C55E&text_color=E5E7EB" alt="Awab's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=awabmoha&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=E5E7EB" alt="Awab's top languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=awabmoha&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=22C55E&text_color=E5E7EB" alt="Awab's GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=awabmoha&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=E5E7EB" alt="Awab's top languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=awabmoha&theme=react&hide_border=true&background=0D1117&ring=22C55E&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub streak" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=awabmoha&bg_color=0D1117&color=E5E7EB&line=38BDF8&point=22C55E&area=true&hide_border=true" alt="GitHub activity graph" />
 </p>
 
----
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=awabmoha&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" alt="GitHub trophies" />
+</p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:22c55e,55:2563eb,100:0f172a" alt="Footer wave" />
+  <img src="./assets/divider.svg" alt="" width="100%" />
+</p>
+
+<p align="center">
+  <strong>Building AI projects that look good, run locally, explain themselves, and are worth opening twice.</strong>
 </p>
