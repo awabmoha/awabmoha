@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://3d-portfolio-website-main-ebon.vercel.app">
+  <a href="https://awab-ai.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-3D%20Experience-22c55e?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
   <a href="mailto:oawab06@gmail.com">
@@ -82,7 +82,7 @@ Right now I am improving my portfolio around applied AI, computer vision, and fu
       <h3>3D AI Portfolio</h3>
       <p>Interactive portfolio built with React, Vite, Three.js, React Three Fiber, Drei, and GSAP. Presents CV-style information through a more memorable animated 3D experience.</p>
       <p>
-        <a href="https://3d-portfolio-website-main-ebon.vercel.app"><strong>Live Site</strong></a>
+        <a href="https://awab-ai.vercel.app"><strong>Live Site</strong></a>
       </p>
       <p>
         <img src="https://img.shields.io/badge/React-111827?style=flat-square&logo=react" />
