@@ -1,65 +1,87 @@
 <div align="center">
 
-# Awab Mohamed
+# Awab Mohamed Osman
 
-### AI Engineer & Developer in Doha
+**Artificial Intelligence Student | AI Developer | Computer Vision & Web Systems**
 
-I build practical AI systems, 3D web experiences, and smart interfaces that turn model ideas into usable products.
-
-[![Portfolio](https://img.shields.io/badge/3D_Portfolio-Live-black?style=for-the-badge&logo=vercel)](https://3d-portfolio-website-main-ebon.vercel.app)
-[![Email](https://img.shields.io/badge/Email-oawab06%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:oawab06@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-awabmoha-181717?style=for-the-badge&logo=github)](https://github.com/awabmoha)
+Doha, Qatar  
+[Portfolio](https://3d-portfolio-website-main-ebon.vercel.app) · [GitHub](https://github.com/awabmoha) · [Email](mailto:oawab06@gmail.com)
 
 </div>
 
 ---
 
-## About Me
+## Professional Profile
 
-I am an Artificial Intelligence student focused on generative AI, machine learning, computer vision, RAG systems, and real-time intelligent applications. I like building projects that connect the full path: data, model logic, APIs, UI, and deployment.
+AI student and developer focused on building practical intelligent systems: computer vision apps, machine learning workflows, generative AI tools, and interactive web experiences. I like projects where the full pipeline matters, from model logic and data handling to backend APIs, user interface, deployment, and documentation.
 
-- Location: Doha, Qatar
-- Focus: Generative AI, computer vision, machine learning, real-time systems
-- Current stack: Python, JavaScript, React, Vite, Three.js, FastAPI, OpenCV, scikit-learn
-- Learning path: Huawei HCIA-AI, Cisco networking, Intel / Google / Cisco AI training
+I am currently strengthening my foundation in machine learning, computer vision, networking, and production-style AI application development.
 
-## Featured Work
+## Core Skills
+
+**AI & Machine Learning:** computer vision, face analytics, supervised ML workflows, RAG concepts, prompt engineering, model evaluation  
+**Programming:** Python, JavaScript, TypeScript, SQL, HTML, CSS  
+**Frameworks & Tools:** React, Vite, Three.js, Flask, OpenCV, DeepFace, NumPy, Pandas, scikit-learn  
+**Developer Workflow:** Git, GitHub, README/documentation writing, local environment setup, deployment basics  
+**Product Thinking:** turning prototypes into usable projects, interface design, privacy-aware AI features
+
+## Selected Projects
+
+### Real-Time Face Analytics
+
+Local webcam analytics project using Python, OpenCV, DeepFace, and SQLite. It detects faces, estimates age/gender, supports emotion analysis, and stores face embeddings locally with safer opt-in registration behavior.
+
+**Repository:** [awabmoha/mlAgeGenderemotions](https://github.com/awabmoha/mlAgeGenderemotions)  
+**Stack:** Python, OpenCV, DeepFace, SQLite, NumPy
 
 ### 3D AI Portfolio
 
-An interactive 3D portfolio built with React, Vite, Three.js, React Three Fiber, Drei, and GSAP. It presents my CV, projects, contact details, bilingual content, and an animated 3D room interface.
+Interactive 3D portfolio experience built with React, Vite, Three.js, React Three Fiber, Drei, and GSAP. It presents my CV, projects, contact information, bilingual content, and an animated 3D room interface.
 
-**Live:** [3d-portfolio-website-main-ebon.vercel.app](https://3d-portfolio-website-main-ebon.vercel.app)
+**Live:** [3d-portfolio-website-main-ebon.vercel.app](https://3d-portfolio-website-main-ebon.vercel.app)  
+**Stack:** React, Vite, Three.js, React Three Fiber, GSAP
 
-### Real-Time Face Analysis System
+### Smart AI Assistant With Human Feedback
 
-A computer vision project using Python, OpenCV, and DeepFace to detect faces and analyze age, gender, and emotion from webcam input.
+Multimodal AI notebook concept that generates candidate responses, collects human ratings, ranks outputs with Pandas, and experiments with image generation from the same prompt.
 
-### Smart AI Assistant with Human Feedback
-
-A multimodal AI notebook that generates candidate responses, collects human ratings, ranks output with Pandas, and generates images from the same prompt.
+**Focus:** response evaluation, human feedback loops, notebook-based AI prototyping
 
 ### Machine Learning Prediction Pipeline
 
-A reusable supervised ML workflow for preprocessing, feature engineering, model training, evaluation, and application integration.
+Reusable supervised learning workflow for preprocessing, feature engineering, model training, evaluation, and application integration.
 
-## Tech I Use
+**Focus:** clean ML workflow structure, reproducible experiments, practical model evaluation
+
+## Education & Development
+
+**Lusail University**  
+Artificial Intelligence student
+
+**Additional Learning**
+
+- Huawei HCIA-AI learning path
+- Cisco networking foundations
+- Intel / Google / Cisco AI training
+- Independent projects in computer vision, web development, and applied AI
+
+## Tools I Use
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,react,vite,threejs,html,css,github,git,flask,opencv" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=python,js,ts,react,vite,threejs,html,css,flask,opencv,git,github" alt="Python, JavaScript, TypeScript, React, Vite, Three.js, HTML, CSS, Flask, OpenCV, Git, GitHub" />
 </p>
 
-## GitHub Stats
+## GitHub Snapshot
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=awabmoha&show_icons=true&theme=tokyonight&hide_border=true" alt="Awab's GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=awabmoha&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=awabmoha&show_icons=true&theme=github_dark&hide_border=true" alt="Awab's GitHub stats" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=awabmoha&layout=compact&theme=github_dark&hide_border=true" alt="Awab's top languages" />
 </p>
 
 ---
 
 <div align="center">
 
-### Building AI that feels useful, fast, and human to interact with.
+**I build AI projects that are practical, documented, and useful enough for people to actually try.**
 
 </div>
