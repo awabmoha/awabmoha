@@ -22,7 +22,7 @@ awab = {
 
 #### 🛠️ Things I've built
 
-<img align="right" width="200" src="assets/smartcount-demo.gif" alt="LU SmartCount demo: a pixelated person walks out (not counted), then walks in and the counter goes to 1" />
+<img align="right" width="190" hspace="14" src="assets/smartcount-demo.gif" alt="LU SmartCount demo: a pixelated person walks out (not counted), then walks in and the counter goes to 1" />
 
 - 🚪 **LU SmartCount** *(private)*: counts people walking into a room from a camera feed. RT-DETR + ByteTrack, exported to ONNX and run on a laptop GPU. It never stores video or faces, only "someone came in at 10:42". (Demo on the right, person pixelated on purpose.)
 - 📍 **Qatar For You** *(private)*: answer four quick questions, get a map of things to do in Qatar. English and Arabic, React Native (Expo).
