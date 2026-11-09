@@ -1,24 +1,36 @@
-### Hi, I'm Awab
+### Hi, I'm Awab 👋
 
-I study Artificial Intelligence at Lusail University in Doha. I mostly work on two things: getting language models to say when their answers shouldn't be trusted, and computer vision that runs in real time on ordinary hardware. I also build the apps around them.
+I study AI at Lusail University in Doha, and I spend most of my time asking language models a slightly rude question: *do you actually know when you're wrong?*
 
-#### Research
+Short answer so far: a little. Their hidden states carry a real signal, but it's small, it depends on the model, and it falls apart on a new dataset. Gemma turned out to be very good at knowing when it's about to refuse, which isn't quite the same thing. Phase 2 is me trying to train that humility in properly.
 
-**[Truth Calibration Layer](https://github.com/awabmoha/truth-calibration-layer)**: can a model estimate how much each of its answers can be trusted? In Phase 1 I trained probes on the hidden states of three open models (Qwen2.5-0.5B, Phi-3.5-mini, Gemma 2B) across TriviaQA, SQuAD and NQ-Open, 1,500 test questions per pairing. The probe beat calibrated raw confidence in 4 of 6 pairings and roughly matched semantic entropy from a single forward pass, but it didn't transfer across datasets. Phase 2 tests whether training the trust head jointly with the model fixes that.
+```python
+awab = {
+    "based_in":   "Doha, Qatar",
+    "studying":   "AI @ Lusail University",
+    "currently":  "asking LLMs if they're sure",
+    "llm_answer": "yes",  # they were not
+    "side_quest": "counting people walking through a door, very seriously",
+}
+```
+
+#### 🧠 Research
+
+**[Truth Calibration Layer](https://github.com/awabmoha/truth-calibration-layer)**: probes on the hidden states of Qwen2.5-0.5B, Phi-3.5-mini and Gemma 2B, tested on TriviaQA, SQuAD and NQ-Open with 1,500 questions per pairing. The probe beat calibrated confidence in 4 of 6 pairings and roughly matched semantic entropy from a single forward pass. It did not transfer across datasets, which is what Phase 2 is about.
 
 <img src="https://raw.githubusercontent.com/awabmoha/truth-calibration-layer/main/assets/phase1-probe-vs-raw.svg" alt="Phase 1: frozen probe vs calibrated raw confidence (AUROC)" width="640" />
 
-#### Projects
+#### 🛠️ Things I've built
 
-- **LU SmartCount** *(private)*: counts people entering a room from a camera feed. RT-DETR detection and ByteTrack tracking, exported to ONNX and run on a laptop GPU through DirectML. It stores no video and no identities, only entry events.
-- **Qatar For You** *(private)*: an Android app for finding activities, events and places in Qatar. Four quick questions give you a personalised map and list, in English and Arabic. React Native (Expo) and TypeScript.
-- **[realtime-face-analytics](https://github.com/awabmoha/realtime-face-analytics)**: webcam face detection, age/gender and emotion estimation, and local face matching with OpenCV, DeepFace and SQLite.
-- **[Portfolio](https://awab-ai.vercel.app)**: my CV as an interactive 3D site, built with React and Three.js.
+- 🚪 **LU SmartCount** *(private)*: counts people walking into a room from a camera feed. RT-DETR + ByteTrack, exported to ONNX and run on a laptop GPU. It never stores video or faces, only "someone came in at 10:42".
+- 📍 **Qatar For You** *(private)*: answer four quick questions, get a map of things to do in Qatar. English and Arabic, React Native (Expo).
+- 🙂 **[realtime-face-analytics](https://github.com/awabmoha/realtime-face-analytics)**: webcam age, gender and emotion estimation with OpenCV and DeepFace. An old student project, cleaned up.
+- 🌐 **[Portfolio](https://awab-ai.vercel.app)**: my CV, but in 3D, because a PDF felt too calm. React + Three.js.
 
-#### Stack
+#### 🧰 Stack
 
-- **ML:** Python, PyTorch, Hugging Face Transformers, scikit-learn
-- **Vision:** OpenCV, RT-DETR, ByteTrack, ONNX Runtime
-- **Apps:** TypeScript, React, React Native (Expo), Three.js
+**ML:** Python, PyTorch, Hugging Face Transformers, scikit-learn<br>
+**Vision:** OpenCV, RT-DETR, ByteTrack, ONNX Runtime<br>
+**Apps:** TypeScript, React, React Native (Expo), Three.js
 
-Reach me at oawab06@gmail.com.
+📫 oawab06@gmail.com. Happy to talk calibration, computer vision, or what to do in Qatar.
