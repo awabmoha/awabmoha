@@ -22,9 +22,7 @@ awab = {
 
 #### 🛠️ Things I've built
 
-<img align="right" width="190" hspace="14" src="assets/smartcount-demo.gif" alt="LU SmartCount demo: a pixelated person walks out (not counted), then walks in and the counter goes to 1" />
-
-- 🚪 **LU SmartCount** *(private)*: counts people walking into a room from a camera feed. RT-DETR + ByteTrack, exported to ONNX and run on a laptop GPU. It never stores video or faces, only "someone came in at 10:42". (Demo on the right, person pixelated on purpose.)
+- 🚪 **LU SmartCount** *(private)*: counts people walking into a room from a camera feed. RT-DETR + ByteTrack, exported to ONNX and run on a laptop GPU. It never stores video or faces, only "someone came in at 10:42".
 - 📍 **Qatar For You** *(private)*: answer four quick questions, get a map of things to do in Qatar. English and Arabic, React Native (Expo).
 - 🙂 **[realtime-face-analytics](https://github.com/awabmoha/realtime-face-analytics)**: webcam age, gender and emotion estimation with OpenCV and DeepFace. An old student project, cleaned up.
 - 🌐 **[Portfolio](https://awab-ai.vercel.app)**: my CV, but in 3D, because a PDF felt too calm. React + Three.js.
