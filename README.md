@@ -2,7 +2,7 @@
 
 I study AI at Lusail University in Doha, and I spend most of my time asking language models a slightly rude question: *do you actually know when you're wrong?*
 
-Short answer so far: a little. Their hidden states carry a real signal, but it's small, it depends on the model, and it falls apart on a new dataset. Gemma turned out to be very good at knowing when it's about to refuse, which isn't quite the same thing. Phase 2 is me trying to train that humility in properly.
+Short answer so far: a little. Their hidden states carry a real signal, but it's small, it depends on the model, and it falls apart on a new dataset. Gemma turned out to be very good at knowing when it's about to refuse, which isn't quite the same thing. Then I tried to train that humility in properly, jointly with the model. It didn't help: on a new dataset, every trained head still lost to the model's own token confidence. I wrote that up as a paper anyway, because negative results deserve daylight too.
 
 ```python
 awab = {
@@ -16,9 +16,14 @@ awab = {
 
 #### 🧠 Research
 
-**[Truth Calibration Layer](https://github.com/awabmoha/truth-calibration-layer)**: probes on the hidden states of Qwen2.5-0.5B, Phi-3.5-mini and Gemma 2B, tested on TriviaQA, SQuAD and NQ-Open with 1,500 questions per pairing. The probe beat calibrated confidence in 4 of 6 pairings and roughly matched semantic entropy from a single forward pass. It did not transfer across datasets, which is what Phase 2 is about.
+**[Truth Calibration Layer](https://github.com/awabmoha/truth-calibration-layer)**: a preregistered research program on whether language models can learn to estimate how much to trust their own answers. Every test has its rules locked before any result.
 
-<img src="https://raw.githubusercontent.com/awabmoha/truth-calibration-layer/main/assets/phase1-probe-vs-raw.svg" alt="Phase 1: frozen probe vs calibrated raw confidence (AUROC)" width="640" />
+- **Phase 1:** probes on the hidden states of Qwen2.5-0.5B, Phi-3.5-mini and Gemma 2B, on TriviaQA, SQuAD and NQ-Open. The probe beat calibrated confidence in 4 of 6 pairings and roughly matched semantic entropy from a single forward pass, but it did not transfer across datasets.
+- **Phase 2:** does training the trust head *jointly* with the model fix transfer? Four controlled arms, three seeds, one bug found, one allowed rerun. No: joint training never transferred better than a frozen head, and plain language-model fine-tuning matched its only gain.
+  📄 *Joint Training Does Not Make Trust Heads Transfer: A Preregistered Negative Result* (preprint, 2026). DOI: [10.5281/zenodo.24403374](https://doi.org/10.5281/zenodo.24403374)
+- **Next:** can a head trained on many datasets beat raw confidence on one it has never seen?
+
+<img src="https://raw.githubusercontent.com/awabmoha/truth-calibration-layer/main/assets/phase2-transfer.svg" alt="Phase 2 and 2b: no trained trust head transfers; raw confidence and semantic entropy beat every arm" width="720" />
 
 #### 🛠️ Things I've built
 
@@ -29,8 +34,8 @@ awab = {
 
 #### 🧰 Stack
 
-**ML:** Python, PyTorch, Hugging Face Transformers, scikit-learn<br>
+**ML:** Python, PyTorch, Hugging Face Transformers, scikit-learn, LoRA (PEFT)<br>
 **Vision:** OpenCV, RT-DETR, ByteTrack, ONNX Runtime<br>
 **Apps:** TypeScript, React, React Native (Expo), Three.js
 
-📫 oawab06@gmail.com. Happy to talk calibration, computer vision, or what to do in Qatar.
+📫 oawab06@gmail.com · ORCID [0009-0003-3611-9839](https://orcid.org/0009-0003-3611-9839). Happy to talk calibration, computer vision, or what to do in Qatar.
